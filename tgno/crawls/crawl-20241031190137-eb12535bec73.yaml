@@ -1,0 +1,41 @@
+seeds:
+  - url: https://www.tg.no
+include:
+  - www.tg.no
+blockRules:
+  - url: matomo.gathering.org
+collection: tgno
+behaviors: autoscroll,autoplay,autofetch,siteSpecific
+waitUntil: load,networkidle0
+generateCDX: true
+combineWARCs: true
+saveState: always
+diskUtilization: 0
+workers: 4
+newContext: window
+screencastPort: 9037
+warcinfo:
+  operator: The Gathering
+  hostname: www.tg.no
+state:
+  extraSeeds: []
+  finished:
+    - https://www.tg.no/competitions/esport
+    - https://www.tg.no/
+    - https://www.tg.no/competitions/creative
+    - https://www.tg.no/contact
+  queued:
+    - '{"added":"2024-10-31T19:01:36.054Z","url":"https://www.tg.no/tickets","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2024-10-31T19:01:36.055Z","url":"https://www.tg.no/news/bes%C3%B8k-oss-p%C3%A5-spillexpo","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2024-10-31T19:01:36.055Z","url":"https://www.tg.no/news/crews%C3%B8knader-er-%C3%A5pnet","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2024-10-31T19:01:36.055Z","url":"https://www.tg.no/news/kreativia-p%C3%A5-tg25-der-ideer-blir-til-virkelighet","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2024-10-31T19:01:36.055Z","url":"https://www.tg.no/news/the-gathering-25-e-sport-tar-sentrum","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2024-10-31T19:01:36.055Z","url":"https://www.tg.no/news/the-gathering-st%C3%B8tter-%C3%A5rets-tv-aksjon-til-barnekreftforeningen","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2024-10-31T19:01:36.056Z","url":"https://www.tg.no/news/lan-og-datatreff-i-norge","seedId":0,"depth":1,"extraHops":0}'
+  pending:
+    - '{"seedId":0,"started":"2024-10-31T19:01:36.517Z","extraHops":0,"url":"https:\/\/www.tg.no\/competitions\/esport","added":"2024-10-31T19:01:36.054Z","depth":1}'
+    - '{"seedId":0,"started":"2024-10-31T19:01:36.517Z","extraHops":0,"url":"https:\/\/www.tg.no\/competitions\/creative","added":"2024-10-31T19:01:36.054Z","depth":1}'
+    - '{"seedId":0,"started":"2024-10-31T19:01:36.517Z","extraHops":0,"url":"https:\/\/www.tg.no\/contact","added":"2024-10-31T19:01:36.054Z","depth":1}'
+  sitemapDone: false
+  failed: []
+  errors: []
