@@ -1,0 +1,58 @@
+seeds:
+  - url: https://www.tg.no
+include:
+  - www.tg.no
+blockRules:
+  - url: matomo.gathering.org
+collection: tgno
+behaviors: autoscroll,autoplay,autofetch,siteSpecific
+waitUntil: load,networkidle0
+generateCDX: true
+combineWARCs: true
+saveState: always
+diskUtilization: 0
+workers: 4
+newContext: window
+screencastPort: 9037
+warcinfo:
+  operator: The Gathering
+  hostname: www.tg.no
+state:
+  extraSeeds: []
+  finished:
+    - https://www.tg.no/
+    - https://www.tg.no/about
+    - https://www.tg.no/news
+    - https://www.tg.no/schedule
+  queued:
+    - '{"added":"2025-03-12T18:10:01.711Z","url":"https://www.tg.no/about/expo","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2025-03-12T18:10:01.711Z","url":"https://www.tg.no/about/sponsor","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2025-03-12T18:10:01.712Z","url":"https://www.tg.no/event/construction-rules","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2025-03-12T18:10:01.712Z","url":"https://www.tg.no/event/rules","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2025-03-12T18:10:01.712Z","url":"https://www.tg.no/practical","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2025-03-12T18:10:01.712Z","url":"https://www.tg.no/practical/brev-fra-sikkerhetsansvarlig/","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2025-03-12T18:10:01.712Z","url":"https://www.tg.no/practical/consent-form/","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2025-03-12T18:10:01.712Z","url":"https://www.tg.no/practical/packing-list/","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2025-03-12T18:10:01.713Z","url":"https://www.tg.no/competitions/creative","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2025-03-12T18:10:01.713Z","url":"https://www.tg.no/competitions/esport","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2025-03-12T18:10:01.713Z","url":"https://www.tg.no/contact","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2025-03-12T18:10:01.713Z","url":"https://www.tg.no/tickets","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2025-03-12T18:10:01.713Z","url":"https://www.tg.no/tickets/terms-and-conditions","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2025-03-12T18:10:01.714Z","url":"https://www.tg.no/news/brev-fra-sikkerhetsansvarlig","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2025-03-12T18:10:01.714Z","url":"https://www.tg.no/news/da-tweekaz-in-da-house","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2025-03-12T18:10:01.714Z","url":"https://www.tg.no/news/gratis-espa-bolle","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2025-03-12T18:10:01.714Z","url":"https://www.tg.no/news/miu-til-the-gathering","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2025-03-12T18:10:01.714Z","url":"https://www.tg.no/news/p%C3%A5melding-til-turneringer-er-n%C3%A5-%C3%A5pnet","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2025-03-12T18:10:01.714Z","url":"https://www.tg.no/news/premiumparkering-er-n%C3%A5-tilgjengelig","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2025-03-12T18:10:01.714Z","url":"https://www.tg.no/news/scandic-hamar-er-%C3%A5rets-tg-hotell","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2025-03-12T18:10:01.715Z","url":"https://archive.tg.no/all/*/https://www.tg.no/","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2025-03-12T18:10:01.715Z","url":"https://www.tg.no/news/liveshow-med-nerdelandslaget","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2025-03-12T18:10:01.715Z","url":"https://www.tg.no/news/premiepotten-for-valorant-konkurransen-%C3%B8ker","seedId":0,"depth":1,"extraHops":0}'
+    - '{"added":"2025-03-12T18:10:01.715Z","url":"https://www.tg.no/news/under-16-her-er-samtykkeskjemaet","seedId":0,"depth":1,"extraHops":0}'
+  pending:
+    - '{"seedId":0,"started":"2025-03-12T18:10:02.127Z","extraHops":0,"url":"https:\/\/www.tg.no\/about","added":"2025-03-12T18:10:01.711Z","depth":1}'
+    - '{"seedId":0,"started":"2025-03-12T18:10:02.123Z","extraHops":0,"url":"https:\/\/www.tg.no\/news","added":"2025-03-12T18:10:01.710Z","depth":1}'
+    - '{"seedId":0,"started":"2025-03-12T18:10:02.123Z","extraHops":0,"url":"https:\/\/www.tg.no\/schedule","added":"2025-03-12T18:10:01.710Z","depth":1}'
+  sitemapDone: false
+  failed: []
+  errors: []
