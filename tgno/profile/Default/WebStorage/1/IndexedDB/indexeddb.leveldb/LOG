@@ -1,3 +1,15 @@
-2026/04/01-07:02:17.197 3b Reusing MANIFEST /crawls/collections/tgno/profile/Default/WebStorage/1/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2026/04/01-07:02:17.198 3b Recovering log #3
-2026/04/01-07:02:17.203 3b Reusing old log /crawls/collections/tgno/profile/Default/WebStorage/1/IndexedDB/indexeddb.leveldb/000003.log 
+2026/04/05-15:45:48.102 38 Reusing MANIFEST /crawls/collections/tgno/profile/Default/WebStorage/1/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/04/05-15:45:48.103 38 Recovering log #4
+2026/04/05-15:45:48.111 38 Reusing old log /crawls/collections/tgno/profile/Default/WebStorage/1/IndexedDB/indexeddb.leveldb/000004.log 
+2026/04/05-15:48:30.266 39 Level-0 table #8: started
+2026/04/05-15:48:30.407 39 Level-0 table #8: 1130733 bytes OK
+2026/04/05-15:48:30.409 39 Delete type=0 #4
+2026/04/05-15:48:30.410 39 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/04/05-15:48:30.410 39 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00pJ:\xe5\xd5yB\x00\x03\x00\x00\x00\x00\x00\x00G@' @ 9183 : 1
+2026/04/05-15:48:30.410 39 Compacting 1@1 + 1@2 files
+2026/04/05-15:48:30.419 39 Generated table #9@1: 123 keys, 13333 bytes
+2026/04/05-15:48:30.419 39 Compacted 1@1 + 1@2 files => 13333 bytes
+2026/04/05-15:48:30.419 39 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/04/05-15:48:30.420 39 Delete type=2 #5
+2026/04/05-15:48:30.420 39 Delete type=2 #8
+2026/04/05-15:48:30.421 39 Manual compaction at level-1 from '\x00\x04\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00pJ:\xe5\xd5yB\x00\x03\x00\x00\x00\x00\x00\x00G@' @ 9183 : 1 .. (end); will stop at (end)

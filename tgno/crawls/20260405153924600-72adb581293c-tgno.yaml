@@ -1,0 +1,52 @@
+seeds:
+  - url: https://www.tg.no
+  - url: https://www.tg.no/map
+  - url: https://www.tg.no/schedule
+include:
+  - www.tg.no
+blockRules:
+  - url: matomo.gathering.org
+collection: tgno
+headless: true
+behaviors: autoscroll,autoplay,autofetch,siteSpecific,headless
+waitUntil: load,networkidle0
+generateCDX: true
+combineWARCs: true
+saveState: always
+diskUtilization: 0
+workers: 4
+warcinfo:
+  operator: The Gathering
+  hostname: www.tg.no
+state:
+  id: 72adb581293c-tgno
+  extraSeeds: []
+  finished:
+    - https://www.tg.no/news
+    - https://www.tg.no/map
+    - https://www.tg.no/schedule
+    - https://www.tg.no/
+  queued:
+    - '{"added":"2026-04-05T15:39:23.054Z","url":"https://www.tg.no/practical","seedId":1,"depth":1,"extraHops":0}'
+    - '{"added":"2026-04-05T15:39:23.055Z","url":"https://www.tg.no/practical/alt-om-innsjekk-og-ankomst-til-tg/","seedId":1,"depth":1,"extraHops":0}'
+    - '{"added":"2026-04-05T15:39:23.055Z","url":"https://www.tg.no/practical/brev-fra-sikkerhetsansvarlig/","seedId":1,"depth":1,"extraHops":0}'
+    - '{"added":"2026-04-05T15:39:23.055Z","url":"https://www.tg.no/practical/consent-form/","seedId":1,"depth":1,"extraHops":0}'
+    - '{"added":"2026-04-05T15:39:23.055Z","url":"https://www.tg.no/practical/packing-list/","seedId":1,"depth":1,"extraHops":0}'
+    - '{"added":"2026-04-05T15:39:23.056Z","url":"https://www.tg.no/about/expo","seedId":1,"depth":1,"extraHops":0}'
+    - '{"added":"2026-04-05T15:39:23.056Z","url":"https://www.tg.no/event/construction-rules","seedId":1,"depth":1,"extraHops":0}'
+    - '{"added":"2026-04-05T15:39:23.056Z","url":"https://www.tg.no/event/rules","seedId":1,"depth":1,"extraHops":0}'
+    - '{"added":"2026-04-05T15:39:23.057Z","url":"https://www.tg.no/about/sponsor","seedId":1,"depth":1,"extraHops":0}'
+    - '{"added":"2026-04-05T15:39:23.057Z","url":"https://www.tg.no/tickets","seedId":1,"depth":1,"extraHops":0}'
+    - '{"added":"2026-04-05T15:39:23.057Z","url":"https://www.tg.no/tickets/terms-and-conditions","seedId":1,"depth":1,"extraHops":0}'
+    - '{"added":"2026-04-05T15:39:23.058Z","url":"https://www.tg.no/competitions/creative","seedId":1,"depth":1,"extraHops":0}'
+    - '{"added":"2026-04-05T15:39:23.058Z","url":"https://www.tg.no/competitions/creative/cosplay","seedId":1,"depth":1,"extraHops":0}'
+    - '{"added":"2026-04-05T15:39:23.058Z","url":"https://www.tg.no/competitions/esport","seedId":1,"depth":1,"extraHops":0}'
+    - '{"added":"2026-04-05T15:39:23.059Z","url":"https://www.tg.no/contact","seedId":1,"depth":1,"extraHops":0}'
+  pending:
+    - '{"seedId":2,"started":"2026-04-05T15:39:20.517Z","extraHops":0,"url":"https:\/\/www.tg.no\/schedule","added":"2026-04-05T15:39:19.977Z","depth":0}'
+    - '{"seedId":1,"started":"2026-04-05T15:39:23.531Z","extraHops":0,"url":"https:\/\/www.tg.no\/news","added":"2026-04-05T15:39:23.053Z","depth":1}'
+    - '{"seedId":0,"started":"2026-04-05T15:39:20.517Z","extraHops":0,"url":"https:\/\/www.tg.no\/","added":"2026-04-05T15:39:19.976Z","depth":0}'
+  sitemapDone: false
+  failed: []
+  errors: []
+  excluded: []

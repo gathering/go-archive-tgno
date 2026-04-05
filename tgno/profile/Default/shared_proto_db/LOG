@@ -1,2 +1,3 @@
-2026/04/01-06:56:42.551 3b Creating DB /crawls/collections/tgno/profile/Default/shared_proto_db since it was missing.
-2026/04/01-06:56:42.555 3b Reusing MANIFEST /crawls/collections/tgno/profile/Default/shared_proto_db/MANIFEST-000001
+2026/04/05-15:39:20.480 41 Reusing MANIFEST /crawls/collections/tgno/profile/Default/shared_proto_db/MANIFEST-000001
+2026/04/05-15:39:20.481 41 Recovering log #3
+2026/04/05-15:39:20.481 41 Reusing old log /crawls/collections/tgno/profile/Default/shared_proto_db/000003.log 

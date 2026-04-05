@@ -1,2 +1,3 @@
-2026/04/01-06:56:42.503 5a Creating DB /crawls/collections/tgno/profile/Default/Session Storage since it was missing.
-2026/04/01-06:56:42.506 5a Reusing MANIFEST /crawls/collections/tgno/profile/Default/Session Storage/MANIFEST-000001
+2026/04/05-15:39:20.462 63 Reusing MANIFEST /crawls/collections/tgno/profile/Default/Session Storage/MANIFEST-000001
+2026/04/05-15:39:20.470 63 Recovering log #3
+2026/04/05-15:39:20.472 63 Reusing old log /crawls/collections/tgno/profile/Default/Session Storage/000003.log 
