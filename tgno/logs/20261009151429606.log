@@ -1,0 +1,22 @@
+{"timestamp":"2026-10-09T15:14:29.677Z","logLevel":"info","context":"general","message":"Browsertrix-Crawler 1.12.4 (with warcio.js 2.4.9)","details":{}}
+{"timestamp":"2026-10-09T15:14:29.679Z","logLevel":"info","context":"general","message":"Seeds","details":[{"url":"https://www.tg.no/","normUrl":"https://www.tg.no/","scopeType":"page","include":["/www.tg.no/"],"exclude":[],"allowHash":false,"depth":-1,"sitemap":null,"auth":null,"_authEncoded":null,"maxExtraHops":0,"maxDepth":0,"_includeStr":["www.tg.no"]}]}
+{"timestamp":"2026-10-09T15:14:29.679Z","logLevel":"info","context":"general","message":"Link Selectors","details":[{"selector":"a[href]","extract":"href","isAttribute":false}]}
+{"timestamp":"2026-10-09T15:14:29.679Z","logLevel":"info","context":"general","message":"Behavior Options","details":{"message":"{\"autoscroll\":true,\"autoplay\":true,\"autofetch\":true,\"siteSpecific\":true,\"log\":\"__bx_log\",\"startEarly\":true,\"clickSelector\":\"a\"}"}}
+{"timestamp":"2026-10-09T15:14:30.539Z","logLevel":"info","context":"worker","message":"Creating 4 workers","details":{}}
+{"timestamp":"2026-10-09T15:14:30.540Z","logLevel":"info","context":"worker","message":"Worker starting","details":{"workerid":0}}
+{"timestamp":"2026-10-09T15:14:30.541Z","logLevel":"info","context":"worker","message":"Worker starting","details":{"workerid":1}}
+{"timestamp":"2026-10-09T15:14:30.541Z","logLevel":"info","context":"worker","message":"Worker starting","details":{"workerid":2}}
+{"timestamp":"2026-10-09T15:14:30.541Z","logLevel":"info","context":"worker","message":"Worker starting","details":{"workerid":3}}
+{"timestamp":"2026-10-09T15:14:30.692Z","logLevel":"info","context":"worker","message":"Starting page","details":{"workerid":0,"page":"https://www.tg.no/"}}
+{"timestamp":"2026-10-09T15:14:30.693Z","logLevel":"info","context":"crawlStatus","message":"Crawl statistics","details":{"crawled":0,"total":1,"pending":1,"failed":0,"limit":{"max":0,"hit":false},"pendingPages":["{\"seedId\":0,\"started\":\"2026-10-09T15:14:30.544Z\",\"extraHops\":0,\"url\":\"https:\\/\\/www.tg.no\\/\",\"added\":\"2026-10-09T15:14:29.701Z\",\"depth\":0}"]}}
+{"timestamp":"2026-10-09T15:14:31.118Z","logLevel":"info","context":"general","message":"Awaiting page load","details":{"page":"https://www.tg.no/","workerid":0}}
+{"timestamp":"2026-10-09T15:15:00.637Z","logLevel":"info","context":"pageStatus","message":"Page Finished","details":{"loadState":4,"page":"https://www.tg.no/","workerid":0}}
+{"timestamp":"2026-10-09T15:15:00.662Z","logLevel":"info","context":"general","message":"Saving crawl state to: /crawls/collections/tgno/crawls/20261009151500640-761c1bc673bf-tgno.yaml","details":{}}
+{"timestamp":"2026-10-09T15:15:00.667Z","logLevel":"info","context":"worker","message":"Worker done, all tasks complete","details":{"workerid":0}}
+{"timestamp":"2026-10-09T15:15:00.984Z","logLevel":"info","context":"worker","message":"Worker done, all tasks complete","details":{"workerid":1}}
+{"timestamp":"2026-10-09T15:15:00.985Z","logLevel":"info","context":"worker","message":"Worker done, all tasks complete","details":{"workerid":2}}
+{"timestamp":"2026-10-09T15:15:00.985Z","logLevel":"info","context":"worker","message":"Worker done, all tasks complete","details":{"workerid":3}}
+{"timestamp":"2026-10-09T15:15:01.090Z","logLevel":"info","context":"general","message":"Saving crawl state to: /crawls/collections/tgno/crawls/20261009151501088-761c1bc673bf-tgno.yaml","details":{}}
+{"timestamp":"2026-10-09T15:15:01.092Z","logLevel":"info","context":"crawlStatus","message":"Crawl statistics","details":{"crawled":1,"total":1,"pending":0,"failed":0,"limit":{"max":0,"hit":false},"pendingPages":[]}}
+{"timestamp":"2026-10-09T15:15:01.093Z","logLevel":"info","context":"general","message":"Crawling done","details":{}}
+{"timestamp":"2026-10-09T15:15:01.093Z","logLevel":"info","context":"general","message":"Merging CDX","details":{}}

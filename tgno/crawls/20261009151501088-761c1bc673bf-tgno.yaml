@@ -1,0 +1,29 @@
+seeds:
+  - url: https://www.tg.no
+    scopeType: page
+include:
+  - www.tg.no
+blockRules:
+  - url: matomo.gathering.org
+collection: tgno
+behaviors: autoscroll,autoplay,autofetch,siteSpecific,headless
+waitUntil: load,networkidle0
+generateCDX: true
+combineWARCs: true
+saveState: always
+diskUtilization: 0
+workers: 4
+warcinfo:
+  operator: The Gathering
+  hostname: www.tg.no
+state:
+  id: 761c1bc673bf-tgno
+  extraSeeds: []
+  finished:
+    - https://www.tg.no/
+  queued: []
+  pending: []
+  sitemapDone: false
+  failed: []
+  errors: []
+  excluded: []
