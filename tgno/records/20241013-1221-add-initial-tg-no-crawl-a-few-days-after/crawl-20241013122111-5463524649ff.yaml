@@ -1,0 +1,34 @@
+seeds:
+  - url: https://www.tg.no
+include:
+  - www.tg.no
+blockRules:
+  - url: matomo.gathering.org
+collection: tgno
+behaviors: autoscroll,autoplay,autofetch,siteSpecific
+waitUntil: load,networkidle0
+generateCDX: true
+combineWARCs: true
+saveState: always
+diskUtilization: 0
+workers: 4
+newContext: window
+screencastPort: 9037
+warcinfo:
+  operator: The Gathering
+  hostname: www.tg.no
+state:
+  extraSeeds: []
+  finished:
+    - https://www.tg.no/news/lan-og-datatreff-i-norge
+    - https://www.tg.no/news/kreativia-p%C3%A5-tg25-der-ideer-blir-til-virkelighet
+    - https://www.tg.no/news/crews%C3%B8knader-er-%C3%A5pnet
+    - https://www.tg.no/news/tg25-er-satt
+    - https://www.tg.no/news/vi-s%C3%B8ker-chiefs-og-andre-ledende-roller
+    - https://www.tg.no/news/the-gathering-25-e-sport-tar-sentrum
+    - https://www.tg.no/
+  queued: []
+  pending: []
+  sitemapDone: false
+  failed: []
+  errors: []
