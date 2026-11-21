@@ -1,1 +1,7 @@
 .DS_Store
+
+# Only the WARC files and the crawl records are committed. The rest of the
+# crawler's output (logs, browser profile, indexes, resume state) is not.
+tgno/*
+!tgno/archive/
+!tgno/records/
